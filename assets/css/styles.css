@@ -35,10 +35,8 @@
   /*========== Font weight ==========*/
   --font-medium: 500;
   --font-semi-bold: 600;
-  --font-bold: 700;
 
-  /*===== z index =====*/
-  --z-normal: 1;
+  /*========== z index ==========*/
   --z-tooltip: 10;
   --z-fixed: 100;
 }
@@ -281,17 +279,7 @@ a {
 
 /* Active link */
 .active-link {
-  position: relative;
   color: var(--first-color);
-}
-
-.active-link::after {
-  content: "";
-  position: absolute;
-  bottom: -0.7rem;
-  left: 0;
-  width: 65%;
-  height: 3px;
 }
 
 /* DROPDOWN */
@@ -682,12 +670,6 @@ a {
   right: 2rem;
   bottom: -2rem;
   transform: rotate(45deg);
-}
-
-.newsletter__container,
-.newsletter__form,
-.newsletter__input {
-  transition: background 0.4s; /* for dark mode animation */
 }
 
 /*=============== FOOTER ===============*/
